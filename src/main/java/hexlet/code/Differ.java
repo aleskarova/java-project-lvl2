@@ -24,7 +24,6 @@ public class Differ {
 
         Map<String, Object> result = new LinkedHashMap<>();
         for (String key : keys) {
-            System.out.println("Processing key: " + key);
             if (!document2.containsKey(key)) {
                 result.put("- " + key, document1.get(key));
             } else if (!document1.containsKey(key)) {
