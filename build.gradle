@@ -22,5 +22,9 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    implementation 'info.picocli:picocli:4.6.1'
+}
+
 group = 'hexlet.code'
 version = '1.0-SNAPSHOT'
