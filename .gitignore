@@ -6,3 +6,6 @@ build
 
 # Ignore IntelliJ IDEA directory
 .idea
+
+# Ignore tmp directory
+tmp
